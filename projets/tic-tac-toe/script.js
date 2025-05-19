@@ -34,6 +34,7 @@ function handleClick(e) {
   grid[index] = currentPlayer;
   e.target.textContent = currentPlayer;
   e.target.classList.add("taken");
+  e.target.classList.add("taken-" + currentPlayer);
 
   const winner = checkWinner();
   if (!statusText) return;

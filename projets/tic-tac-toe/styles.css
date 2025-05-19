@@ -1,7 +1,8 @@
 body {
-  font-family: sans-serif;
+  font-family: ibmplex mono, monospace;
+  color: #f29e60;
   text-align: center;
-  background: #f0f0f0;
+  background: #0a0721;
 }
 h1 {
   margin-top: 20px;
@@ -15,8 +16,8 @@ h1 {
   width: max-content;
 }
 .cell {
-  background: white;
-  border: 2px solid #333;
+  background: #f29e60;
+  border: 2px solid #f29e60;
   font-size: 3rem;
   display: flex;
   align-items: center;
@@ -31,8 +32,22 @@ h1 {
   font-size: 1.5rem;
 }
 .reset {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
+  display: flex;
+  width: 224px;
+  height: 84px;
+  padding: 21px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 42px;
+  background: #ffffff;
+}
+.taken-X {
+  background-image: url(../assets/Char_ElephantAndSkull.png);
+  color: #0a0721;
+}
+.taken-O {
+  background: #0a0721;
+  color: #f29e60;
 }
